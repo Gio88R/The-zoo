@@ -1,5 +1,3 @@
-// api.ts
-
 export const fetchAnimals = async () => {
     try {
       const response = await fetch('https://animals.azurewebsites.net/api/animals');
